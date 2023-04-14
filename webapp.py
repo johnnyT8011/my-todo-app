@@ -3,6 +3,8 @@ import functions
 
 todos = functions.get_todos()
 
+
+
 def add_todo():
     todo = st.session_state['new_todo'] + '\n'
     todos.append(todo)
@@ -16,6 +18,7 @@ def add_todo():
 st.title('My todo app,this is title')
 st.subheader('this is my todo app, this is subheader')
 st.write('this is the write method')
+st.write('This page is hosted locally')
 
 
 for index, todo in enumerate(todos):
