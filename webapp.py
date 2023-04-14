@@ -18,7 +18,9 @@ def add_todo():
 st.title('My todo app,this is title')
 st.subheader('this is my todo app, this is subheader')
 st.write('this is the write method')
-st.write('This page is hosted locally')
+st.write('測試用 點方格會刪掉該條資料 下方輸入欄輸入會新增資料')
+st.write('考慮作成破爛討論版 目前輸入兩條同樣資料會當掉')
+
 
 
 for index, todo in enumerate(todos):
